@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .picture_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+}
+
+img{
+    margin: 0px 20px;
+}
+
+.picture_name span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+body {
+    font-family: "Playwrite AU SA", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-weight: 100;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    background-color: rgb(39, 36, 36);
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+nav .active {
+    /* background-color: rgba(0,0,0,0.3); */
+    background-color: rgb(255, 174, 0);
+    color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.parent {
+    margin: 1rem 2vw;
+}
+
+.parent section {
+    border: 1px solid black;
+    border-radius: 10px;
+    /* overflow oculta las esquinas del contenedor hijo provenientes del border-radius */
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.parent h2 {
+    border: 1px solid black;
+    padding: .75rem 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.parent ul,
+p {
+    padding: 10px;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin: 0 auto; alinea el main automaticamente */
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
