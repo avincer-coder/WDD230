@@ -1,0 +1,39 @@
+.color_schema_black{
+    background-color: black;
+    color: white;
+}
+.color_schema_white{
+    background-color: white;
+    border: 1px solid black;
+}
+.color_schema_gold{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid black;
+}
+
+.typography_title{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.typography_subtitle{
+    font-family: "Playwrite AU SA", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.typography_paragraph{
+    font-family: "Playwrite AU SA", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.h2_wireframe{
+    text-align: center;
+}
+
+.wireframe_views_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
