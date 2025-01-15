@@ -71,8 +71,8 @@ nav a:hover {
 
 nav .active {
     /* background-color: rgba(0,0,0,0.3); */
-    background-color: rgb(255, 174, 0);
-    color: black;
+    background-color: black;
+    color: white;
     border: 1px solid black;
     border-radius: 7px;
 }
@@ -106,6 +106,15 @@ main{
     max-width: 1200px;
     margin: 0 auto;
     /* margin: 0 auto; alinea el main automaticamente */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
 }
 
 footer{
