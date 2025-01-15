@@ -20,10 +20,12 @@ h1 {
 
 main {
 	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 h2 {
 	color: navy;
+	grid-column: span 2;
 	/* text-align: center; */
 }
 
@@ -35,6 +37,7 @@ article p {
 	color: white;
 	background-color: #702963;
     padding: 15px;
+	grid-column: span 2;
 }
 
 footer {
@@ -42,4 +45,5 @@ footer {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	font-size: smaller;
 	text-align: right;
+	
 }
