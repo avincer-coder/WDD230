@@ -8,15 +8,22 @@
     <meta name="description" content="WDD 230 - Web Frontend Development
     Mario Eduardo Garcia Salazar course assignment portal">
     <meta name="author" content="Mario Eduardo Garcia Salazar">
+    <meta property="og:title" content="Mario Eduardo Garcia Salazar - WDD 230 - Web Frontend Development" />
+    <meta property="og:url" content="https://avincer-coder.github.io/wdd230/" />
+    <meta property="og:image" content="https://www.gob.mx/cms/uploads/article/main_image/56184/blog_aniv_hidalgo.jpg" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/getDates.js" defer></script>
-
+    <script src="scripts/menu.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libre+Baskerville&family=Playwrite+AU+SA:wght@100..400&display=swap"
         rel="stylesheet">
+    <link rel="icon" href="../images/favicon.ico">
 </head>
 
 <body>
@@ -25,22 +32,54 @@
             <img src="images/foto-me-compressed-pixlr.jpg" alt="Mario image" loading="lazy">
             <span>Mario Eduardo Garcia Salazar</span>
         </div>
+
+
+        <h1>Responsive Navigation</h1>
+
+        <button type="button" id="menu"></button>
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Chamber</a>
-            <a href="week01/chamber-site-plan.html">Site Plan</a>
-            <a href="#">Form</a>
+            <ul class="navigation">
+                <li><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="About Us" class="active">About Us</a></li>
+                <li><a href="#" title="Chamber">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html" title="Site Plan">Site Plan</a></li>
+                <li><a href="#" title="Form">Form</a></li>
+            </ul>
         </nav>
+
+        <!-- <h2>About Us Page</h2> -->
+        <!-- <div class="stuff"></div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </header>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="parent">
             <section class="card">
                 <h2>Learning Activities</h2>
-                <ul>
-                    <li><a target="_blank" href="week01/media-query.html">Media Query Link Activity.</a></li>
-                    <li><a target="_blank" href="week01/holygrail.html">Holy Grail Link Activity.</a></li>
-                    <li><a href="#"></a></li>
+                <ul class="weeksActivities">
+                    <li>Week 01: 
+                        <a target="_blank" href="week01/media-query.html">Media Query Link Activity</a>
+                        <span>/</span>
+                        <a target="_blank" href="week01/holygrail.html">Holy Grail Link Activity</a>
+                    </li>
+                    <li></li>
+                    <li>Week 02: 
+                        <a target="_blank" href="week02/bom.html">bom</a>
+                        <span>/</span>
+                    </li>
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
