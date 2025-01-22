@@ -299,3 +299,13 @@ nav {
 .weeksActivities a{
     text-decoration: underline;
 }
+
+#darkMode {
+	position: relative;
+	top: 1rem;
+	right: 0;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+
+}
