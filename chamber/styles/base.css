@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+   
+    /* Altura completa de la ventana */
+    height: 100vh; 
+
+   background-image: url('../images/atlantes.jpeg'); /* Ruta de la imagen */
+    
+    /* La imagen cubre todo el espacio */
+    /* background-size: cover; */
+
+    /* Centrar la imagen */
+    /* background-position: center; */
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    text-align: center;
+} 
