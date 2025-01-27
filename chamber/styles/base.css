@@ -4,24 +4,87 @@
     box-sizing: border-box;
 }
 
+/* 
 .hero {
     position: relative;
-    width: 100%;
+    width: 100%; */
    
     /* Altura completa de la ventana */
-    height: 100vh; 
+    /* height: 100vh;  */
 
-   background-image: url('../images/atlantes.jpeg'); /* Ruta de la imagen */
+    /* Ruta de la imagen */
+    /* background-image: url('../images/atlantes.jpeg');  */
     
     /* La imagen cubre todo el espacio */
     /* background-size: cover; */
 
     /* Centrar la imagen */
     /* background-position: center; */
-
+/* 
     color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centra verticalmente el contenido */
+    flex-direction: column; */
+
+    /* Centra verticalmente el contenido */
+    /* justify-content: center; 
+    
+    text-align: center; */
+/* } */
+
+h1{
     text-align: center;
-} 
+}
+
+nav{
+    background-color: black;
+    color: ;
+}
+
+nav ul{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-evenly;
+}
+
+.nav_li{
+    list-style-type: none;
+    border: 1px solid blue;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+/* 
+.hero_image{
+     */
+    /* Ajusta el ancho al 100% del ancho de la pantalla */
+    /* width: 100vw; */
+
+    /* Ajusta la altura al 100% del alto de la pantalla */
+    /* height: 100vh; */
+
+    /* Asegura que la imagen mantenga su proporción */
+    /* object-fit: cover;  */
+/* } */
+
+
+.hero_image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body{
+    border: 2px solid green;
+}

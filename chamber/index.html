@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Mario Eduardo Garcia Salazar </title>
+    <title>Tula Chamber of Commerce</title>
     <meta name="description" content="WDD 230 - Web Frontend Development
     Mario Eduardo Garcia Salazar course assignment portal">
     <meta name="author" content="Mario Eduardo Garcia Salazar">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     
-    <!-- <script src="scripts/" defer></script> -->
+    <script src="../scripts/getDates.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,36 +28,54 @@
 <body>
     <header>
         <h1>
-            Web Page
+            Tula Chamber of Commerce
         </h1>
         <nav>
             <ul>
-                <li>Navegation 1</li>
-                <li>Navegation 2</li>
-                <li>Navegation 3</li>
-                <li>Navegation 4</li>
+                <li class="nav_li"><a href="#">Menu 1</a></li>
+                <li class="nav_li"><a href="#">Menu 2</a></li>
+                <li class="nav_li"><a href="#">Menu 3</a></li>
+                <li class="nav_li"><a href="#">Menu 4</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <div class="hero-content">
+        <img class="hero_image" src="images/atlantes_dos.PNG" alt="Tula Image" height="480" width="720">
 
-            </div>
-        </div>
         <a class="call_to_action" href="">Joing Today!</a>
         <section class="current_event_section">
             <h2>Current Events</h2>
+            <ul>
+                <li>event 1</li>
+                <li>event 2</li>
+                <li>event 3</li>
+                <li>event 4</li>
+                <li>event 5</li>
+            </ul>
         </section>
         <section class="weather_card_section">
             <h2>Weather</h2>
+            <p>Cloudy, rain, sunny</p>
         </section>
         <section class="company_spotlights">
             <h2>Company Spotlights Advertisments</h2>
+            <ul>
+                <li>Advertisment number one</li>
+                <li>Advertisment number two</li>
+                <li>Advertisment number three</li>
+                <li>Advertisment number four</li>
+            </ul>
         </section>
     </main>
     <footer>
-
+        <p>Contacte us at +52 771-123-52-13</p>
+        <p>Or send us an Email at: tula.chambers@gmail.com</p>
+        <p>
+            <span id="currentyear"></span>
+            Mario Eduardo Garcia Salazar, Mexico
+            <img src="../images/compressed-mexico-flag-3.jpg" alt="Mexico flag">
+        </p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>
