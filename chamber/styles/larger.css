@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 768px){
     .hamburger{
         display: none;
     }
@@ -34,5 +34,9 @@
     .call_to_action{
         grid-column: 2/3;
         grid-row: 2/3;
+    }
+    .nav_li{
+        align-items: center;
+        display: flex;
     }
 } 
