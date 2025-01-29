@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1024px){
+    .hamburger{
+        display: none;
+    }
+    .menuppal{
+        position: relative;
+        transform: translate3d(0px, 0px, 0px);
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+    .menuppal.is_active{
+        flex-direction: row;
+    }
+
+    main{
+        grid-template-columns: 1fr 2fr 1fr;
+        display: grid;
+    }
+
+    .hero_image{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .current_event_section{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .weather_card_section{
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    .call_to_action{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+} 
