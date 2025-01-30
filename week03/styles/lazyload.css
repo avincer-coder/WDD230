@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    border: 1px solid red;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid green;
+}
+main{
+    display: block;
+    width: 402px;
+    border: 1px solid yellow;
+}
+
+img{
+    width: 100%;
+    background: #0000;
+    animation: fade 5s;
+}
+@keyframes fade {
+   0%{
+    opacity: 0;
+   } 
+   100%{
+    opacity: 1;
+   }
+}
